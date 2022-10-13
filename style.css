@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    margin: 1rem 3rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #DEE2E6;
+}
+
+a{
+    text-decoration: none;
+}
+
+header .title-board h3{
+    color: #536778;
+}
+
+header .btn{
+    background-color: #00ACAC;
+    padding: .5rem 1.5rem;
+    transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+}
+
+.btn:hover{
+    color: #00ACAC !important;
+    background-color: white;
+    border: 1px solid #00ACAC;
+}
+
+/* style the main section */
+main section.tasks .task-body{
+    background-color: #fff;
+    border-bottom: 1px solid #DEE3E7;
+}
+main section.tasks .task-body .card .card-body .btn:last-child{
+    color: #000;
+    background-color: #DEE2E6;
+    padding: .5rem 1rem;
+}
+
